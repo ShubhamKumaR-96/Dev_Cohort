@@ -1,14 +1,11 @@
 import "./App.css";
-import Light from "./components/LightBlub";
+import Count from "./components/Count";
+
 
 function App() {
-  
-
-  return (
-    <div>
-      <Light />
-    </div>
-  );
+ return (
+  <Count />
+ )
 }
 
 export default App;
