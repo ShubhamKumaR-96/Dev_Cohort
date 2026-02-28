@@ -1,0 +1,28 @@
+function CoilValue() {
+  return (
+    <div>
+      <Buttons />
+      <Value />
+      <IsEven />
+    </div>
+  )
+};
+
+function Buttons() {
+  return (
+    <div>
+      <button>Increase</button>
+      <button>Decrese</button>
+    </div>
+  );
+}
+
+function Value() {
+  return <div>Value</div>;
+}
+
+function IsEven() {
+  return <div></div>;
+}
+
+export default CoilValue;
